@@ -175,8 +175,9 @@ When creating any new component, answer these questions in order before touching
 
 Every single page in this project, past and future, must include a photo of the creator.
 
-**Asset path:** `local branding assets/cute picture of me.png`  
-**Rule:** Non-negotiable. The image must appear on every HTML page built under this identity, no exceptions.
+**Asset URL:** `https://drive.google.com/uc?export=view&id=1hypTec0f71m5yLwWYerAc9Hy9lad-A3v`  
+**Local fallback:** `local branding assets/cute picture of me.png`  
+**Rule:** Non-negotiable. The image must appear on every HTML page built under this identity, no exceptions. Always use the Google Drive URL as the primary `src` — the local file is a backup only.
 
 **Placement guidance:**
 - Position it where it feels earned — not shoved in a corner. A footer portrait, a hero badge, a circular inset near the wordmark, or a small signature-style card all work.
