@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: sans-serif;
+      background-color: #f0f4ff;
+    }
+    h1 {
+      font-size: 3rem;
+      color: #2c3e50;
+    }
+    h1 {
+      user-select: none;
+    }
+    body {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="msg">Hello, I am so smart!</h1>
+  <script>
+    let sos = 1;
+    const msg = document.getElementById('msg');
+    document.addEventListener('click', function () {
+      sos++;
+      if (sos > 4) {
+        msg.textContent = 'Hello, I am way too smart!';
+      } else {
+        msg.textContent = 'Hello, I am ' + 'so '.repeat(sos) + 'smart!';
+      }
+    });
+  </script>
+</body>
+</html>
