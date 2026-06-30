@@ -1,1 +1,5 @@
 .vercel
+.env
+node_modules/
+desserts.db
+.claude/settings.local.json
